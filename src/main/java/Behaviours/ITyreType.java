@@ -3,7 +3,9 @@ package Behaviours;
 public interface ITyreType {
     String getType();
 
-    String getWearLevel();
+    int getWearLevel();
 
-    String wearDown();
+    void wearDown();
+
+    String checkTyreStatus();
 }
